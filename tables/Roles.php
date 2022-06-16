@@ -56,7 +56,7 @@ $tableNames = [
         /*
          * The name of the foreign key to the users table.
          */
-        'users' => 'user_id',
+        'user_id' => 'user_id',
     
 ];
 
