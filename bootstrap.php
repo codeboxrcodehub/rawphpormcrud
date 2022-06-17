@@ -8,9 +8,9 @@ $capsule = new Capsule;
 $capsule->addConnection([
     "driver"   => "mysql",
     "host"     => "127.0.0.1",
-    "database" => "project_ORM",
+    "database" => "project_crm",
     "username" => "root",
-    "password" => ""
+    "password" => "root"
 ]);
 $capsule->setAsGlobal();
 $capsule->bootEloquent();
