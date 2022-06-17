@@ -4,6 +4,7 @@
 /storage/*.key
 /vendor
 debug.log
+bootstrap.php
 .env
 .env.backup
 .phpunit.result.cache
