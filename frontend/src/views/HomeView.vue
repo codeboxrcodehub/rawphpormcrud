@@ -53,7 +53,6 @@ export default {
       }).catch(err => {
         console.log(err)
       })
-<<<<<<< HEAD
     },
 
     deleteUser(id) {
@@ -66,9 +65,6 @@ export default {
       }
     }
 
-=======
-    }
->>>>>>> 3474a42704b6dcd5064e521a216bd65281a24374
   }
 
 }
