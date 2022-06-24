@@ -45,6 +45,7 @@ export default {
       formData.append('password', this.user.password);
       this.axios.post('http://orm.test/addUser.php', formData).then(response => {
         console.log(response)
+        this.$router.push('/')
       }).catch()
     }
   }
